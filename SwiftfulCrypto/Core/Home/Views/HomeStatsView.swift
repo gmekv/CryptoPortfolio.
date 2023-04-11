@@ -17,6 +17,7 @@ struct HomeStatsView: View {
                 stat in
                 StatisticView(stat: stat)
                     .frame(width: UIScreen.main.bounds.width / 3 )
+                    .id(stat.id)
             }
         }
         .frame(width: UIScreen.main.bounds.width, alignment: showPortfolio ? .trailing : .leading)
