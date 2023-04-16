@@ -155,7 +155,8 @@ extension PortfolioView {
         // hide checkmarkt
         DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
             withAnimation(.easeOut) {
-                showChecmark = false 
+                showChecmark = false
+                removeSelectedCoin()
             }
         }
     }
