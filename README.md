@@ -1,6 +1,7 @@
 # CryptoPortfolio.
-Crypto porfolio app based on Congecko Api. Used MVVM, CoreData and Combine. 
+Crypto porfolio app based on Coingecko Api. Used MVVM, CoreData and Combine. 
 
+Used SwiftUI framework, Combine to fetch data and CoreData to save portfolio data.
 
 <img src="https://user-images.githubusercontent.com/113336356/233302063-fcde0ddf-c91c-4520-ac04-faa659756bf3.png" width="300">
 <img src="https://user-images.githubusercontent.com/113336356/233302159-33c7a0f8-ef39-4d7b-a05a-0b6aa1bf100d.png" width="300">
