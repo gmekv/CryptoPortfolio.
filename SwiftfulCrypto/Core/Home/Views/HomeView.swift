@@ -18,7 +18,7 @@ struct HomeView: View {
     
     
     var body: some View {
-        ZStack {
+        ZStack  {
             Color.theme.background
                 .ignoresSafeArea()
                 .sheet(isPresented: $showPortfolioView) {

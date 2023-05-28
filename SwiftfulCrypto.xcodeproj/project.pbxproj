@@ -15,7 +15,6 @@
 		5226A19429E18541002C6F53 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5226A19329E18541002C6F53 /* LocalFileManager.swift */; };
 		5226A19629E1BB08002C6F53 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5226A19529E1BB08002C6F53 /* SearchBarView.swift */; };
 		522EF0A929DCA2AD009BBC65 /* SwiftfulCryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522EF0A829DCA2AD009BBC65 /* SwiftfulCryptoApp.swift */; };
-		522EF0AB29DCA2AD009BBC65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522EF0AA29DCA2AD009BBC65 /* ContentView.swift */; };
 		522EF0B029DCA2AE009BBC65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522EF0AF29DCA2AE009BBC65 /* Preview Assets.xcassets */; };
 		522EF0C529DCB650009BBC65 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522EF0BF29DCB64F009BBC65 /* Date.swift */; };
 		522EF0C629DCB650009BBC65 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522EF0C029DCB64F009BBC65 /* PreviewProvider.swift */; };
@@ -60,7 +59,6 @@
 		5226A19529E1BB08002C6F53 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		522EF0A529DCA2AD009BBC65 /* SwiftfulCrypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulCrypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		522EF0A829DCA2AD009BBC65 /* SwiftfulCryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulCryptoApp.swift; sourceTree = "<group>"; };
-		522EF0AA29DCA2AD009BBC65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		522EF0AF29DCA2AE009BBC65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		522EF0BF29DCB64F009BBC65 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		522EF0C029DCB64F009BBC65 /* PreviewProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
@@ -158,7 +156,6 @@
 			isa = PBXGroup;
 			children = (
 				522EF0A829DCA2AD009BBC65 /* SwiftfulCryptoApp.swift */,
-				522EF0AA29DCA2AD009BBC65 /* ContentView.swift */,
 				522EF0D929DD7BBF009BBC65 /* Models */,
 				5226A18929E083E0002C6F53 /* Utilities */,
 				5226A18429E0170E002C6F53 /* Services */,
@@ -381,7 +378,6 @@
 				522EF0C729DCB650009BBC65 /* String.swift in Sources */,
 				5280A0DC29E9668D009F3F77 /* HapticManager.swift in Sources */,
 				528452BF29E486F4006F58CD /* XMarkButton.swift in Sources */,
-				522EF0AB29DCA2AD009BBC65 /* ContentView.swift in Sources */,
 				5226A18B29E085CC002C6F53 /* NetworkingManager .swift in Sources */,
 				522EF0D029DCC032009BBC65 /* HomeView.swift in Sources */,
 				526F7DBF2A23758A00DB40B4 /* LaunchView.swift in Sources */,
