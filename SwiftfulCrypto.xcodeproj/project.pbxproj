@@ -26,11 +26,11 @@
 		522EF0D629DD6A96009BBC65 /* CircleButtonAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522EF0D529DD6A96009BBC65 /* CircleButtonAnimationView.swift */; };
 		522EF0DD29DD913E009BBC65 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522EF0DC29DD913E009BBC65 /* CoinRowView.swift */; };
 		522EF0E129DE1068009BBC65 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522EF0E029DE1068009BBC65 /* HomeViewModel.swift */; };
+		523A74972A2CA42C00231001 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 523A74962A2CA42C00231001 /* LaunchScreen.storyboard */; };
 		526F7DB32A23681800DB40B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 526F7DB22A23681800DB40B4 /* Assets.xcassets */; };
 		526F7DB52A236DF300DB40B4 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526F7DB42A236DF300DB40B4 /* Color.swift */; };
 		526F7DBA2A236EC400DB40B4 /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526F7DB92A236EC400DB40B4 /* CoinModel.swift */; };
 		526F7DBF2A23758A00DB40B4 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526F7DBE2A23758A00DB40B4 /* LaunchView.swift */; };
-		526F7DC12A2375C100DB40B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526F7DC02A2375C100DB40B4 /* LaunchScreen.storyboard */; };
 		5272AA8D29E585570037D731 /* PotfolioContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5272AA8B29E585570037D731 /* PotfolioContainer.xcdatamodeld */; };
 		5280A0DA29E87819009F3F77 /* PortfolioDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5280A0D929E87819009F3F77 /* PortfolioDataService.swift */; };
 		5280A0DC29E9668D009F3F77 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5280A0DB29E9668D009F3F77 /* HapticManager.swift */; };
@@ -70,11 +70,11 @@
 		522EF0D529DD6A96009BBC65 /* CircleButtonAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonAnimationView.swift; sourceTree = "<group>"; };
 		522EF0DC29DD913E009BBC65 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
 		522EF0E029DE1068009BBC65 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		523A74962A2CA42C00231001 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		526F7DB22A23681800DB40B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		526F7DB42A236DF300DB40B4 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		526F7DB92A236EC400DB40B4 /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
 		526F7DBE2A23758A00DB40B4 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
-		526F7DC02A2375C100DB40B4 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "../../../../../../Downloads/SwiftUI-Crypto-MVVM-CoreData-Combine-main/SwiftfulCrypto/Core/Launch/Views/LaunchScreen.storyboard"; sourceTree = "<group>"; };
 		5272AA8C29E585570037D731 /* PotfolioContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PotfolioContainer.xcdatamodel; sourceTree = "<group>"; };
 		5280A0D929E87819009F3F77 /* PortfolioDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioDataService.swift; sourceTree = "<group>"; };
 		5280A0DB29E9668D009F3F77 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
@@ -279,7 +279,7 @@
 		526F7DBD2A23755700DB40B4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				526F7DC02A2375C100DB40B4 /* LaunchScreen.storyboard */,
+				523A74962A2CA42C00231001 /* LaunchScreen.storyboard */,
 				526F7DBE2A23758A00DB40B4 /* LaunchView.swift */,
 			);
 			path = Views;
@@ -361,7 +361,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				526F7DC12A2375C100DB40B4 /* LaunchScreen.storyboard in Resources */,
+				523A74972A2CA42C00231001 /* LaunchScreen.storyboard in Resources */,
 				526F7DB32A23681800DB40B4 /* Assets.xcassets in Resources */,
 				522EF0B029DCA2AE009BBC65 /* Preview Assets.xcassets in Resources */,
 			);
